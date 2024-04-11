@@ -22,6 +22,8 @@ const Home = () => {
 
       {/* Our Ministries Section */}
       <section className="bg-gray-100 dark:bg-gray-800 py-12">
+        <h2 className="text-3xl font-semibold text-gray-800 dark:text-white mb-8">Our Ministries and Activities</h2>
+   
         <div className="max-w-screen-xl mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
