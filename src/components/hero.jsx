@@ -67,7 +67,33 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
+      {/* Living Seed Outlines Section */}
+<section className="bg-gray-800 py-12">
+  <div className="max-w-screen-xl mx-auto px-4 text-white">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 className="text-3xl font-semibold mb-4">RCCG Living Seed Outlines</h2>
+        <p className="text-lg mb-6">At RCCG Living Seed, we are committed to creating an environment where the youth and young adults can thrive spiritually, emotionally, and socially. Our outlines include:</p>
+        <ul className="list-disc pl-6">
+          <li>Empowering Youth and Young Adults</li>
+          <li>Biblical Teaching and Discipleship</li>
+          <li>Fellowship and Community</li>
+          <li>Spiritual Growth and Transformation</li>
+          <li>Mission and Outreach</li>
+        </ul>
+      </div>
+      <div>
+        <img src="https://pbs.twimg.com/media/GKksIK-WsAALvTZ?format=jpg&name=large" alt="RCCG Living Seed Outlines" className="w-full rounded-lg shadow-md" />
+      </div>
+    </div>
+    <div className="mt-12">
+      <h2 className="text-3xl font-semibold mb-4">Spirituality at Living Seed</h2>
+      <p className="text-lg mb-6">Spirituality is at the core of everything we do at RCCG Living Seed. We believe in fostering a deep, personal relationship with God through prayer, worship, and the study of His Word. Our goal is to empower individuals to live out their faith authentically and impact their world for Christ.</p>
+      <a href="#" className="inline-block px-6 py-3 text-base font-medium text-gray-800 bg-white rounded-lg hover:bg-gray-100">Learn More</a>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 };
