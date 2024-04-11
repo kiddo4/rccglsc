@@ -17,7 +17,7 @@ const Header = () => {
               className="mr-3 h-20 sm:h-40"
               alt="rccglsc Logo"
             />
-            <span className="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Living seed church</span>
+            <span className="self-center text-lg font-bold whitespace-nowrap dark:text-white">Living seed church</span>
           </a>
           <div className="lg:hidden">
             <button
