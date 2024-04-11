@@ -52,6 +52,22 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Prayer Section */}
+      <section className="bg-white dark:bg-gray-900 py-12">
+        <div className="max-w-screen-xl mx-auto px-4">
+          <h2 className="text-3xl font-semibold text-gray-800 dark:text-white mb-8">Prayer</h2>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+            <img src="https://pbs.twimg.com/media/GKjxR8YW4AEbqST?format=jpg&name=large" alt="Prayer" className="w-full h-64 object-cover" />
+              <div className="p-6">
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Prayer Shapes Us</h3>
+          <p className="text-gray-600 dark:text-gray-300">Prayer is not just about asking for things; it's about communing with God and allowing His presence to shape us. Join us as we gather in prayer to deepen our relationship with Him and be transformed by His love and power.</p>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       
     </div>
   );
