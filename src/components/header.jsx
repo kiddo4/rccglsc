@@ -14,7 +14,7 @@ const Header = () => {
           <a href="/" className="flex items-center">
             <img
               src="https://rccglsc.org/wp-content/uploads/2024/04/lsc-small-png.png"
-              className="mr-3 h-20 sm:h-20"
+              className="mr-3 h-20 sm:h-40"
               alt="rccglsc Logo"
             />
             <span className="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Living seed church</span>
