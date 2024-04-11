@@ -23,12 +23,12 @@ const Home = () => {
       {/* Our Ministries Section */}
       <section className="bg-gray-100 dark:bg-gray-800 py-12">
         <div className="max-w-screen-xl mx-auto px-4">
-          <h2 className="text-3xl font-semibold text-gray-800 dark:text-white mb-8">Our Ministries</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
               <img src="https://pbs.twimg.com/media/GKksHrfXMAAjDDM?format=jpg&name=large" alt="Youth Fellowship" className="w-full h-64 object-cover" />
               <div className="p-6">
-                                <p className="text-gray-600 dark:text-gray-300">Our vibrant youth fellowship provides a dynamic environment for young people to grow in their faith, build meaningful relationships, and impact their community.</p>
+                <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Youth Fellowship</h3>
+                <p className="text-gray-600 dark:text-gray-300">Our vibrant youth fellowship provides a dynamic environment for young people to grow in their faith, build meaningful relationships, and impact their community.</p>
               </div>
             </div>
             
@@ -38,12 +38,12 @@ const Home = () => {
       {/* Praise and Worship Section */}
       <section className="bg-gray-100 dark:bg-gray-800 py-12">
         <div className="max-w-screen-xl mx-auto px-4">
-          <h2 className="text-3xl font-semibold text-gray-800 dark:text-white mb-8">Praise and Worship</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
               <img src="https://pbs.twimg.com/media/GKjxR8YW4AEbqST?format=jpg&name=large" alt="Praise and Worship" className="w-full h-64 object-cover" />
               <div className="p-6">
-                    <p className="text-gray-600 dark:text-gray-300">Join us for vibrant praise and worship experiences every Sunday, where we lift up the name of Jesus and encounter His presence in a powerful way.</p>
+                <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Sunday Services</h3>
+                <p className="text-gray-600 dark:text-gray-300">Join us for vibrant praise and worship experiences every Sunday, where we lift up the name of Jesus and encounter His presence in a powerful way.</p>
               </div>
             </div>
           </div>
@@ -53,12 +53,12 @@ const Home = () => {
       {/* Prayer Section */}
       <section className="bg-gray-100 dark:bg-gray-800 py-12">
         <div className="max-w-screen-xl mx-auto px-4">
-          <h2 className="text-3xl font-semibold text-gray-800 dark:text-white mb-8">Prayer</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
               <img src="https://pbs.twimg.com/media/GKjbB7eXgAECWk7?format=jpg&name=large" alt="Prayer" className="w-full h-64 object-cover" />
               <div className="p-6">
-                 <p className="text-gray-600 dark:text-gray-300">Prayer is not just about asking for things; it's about communing with God and allowing His presence to shape us. Join us as we gather in prayer to deepen our relationship with Him and be transformed by His love and power.</p>
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Prayer Shapes Us</h3>
+          <p className="text-gray-600 dark:text-gray-300">Prayer is not just about asking for things; it's about communing with God and allowing His presence to shape us. Join us as we gather in prayer to deepen our relationship with Him and be transformed by His love and power.</p>
         </div>
             </div>
           </div>
